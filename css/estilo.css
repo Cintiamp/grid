@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.padre{
+    width: 90%;
+    border: solid 3px black;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.hijo{
+    background-color: darkorchid;
+
+}
+
+.a{
+    background-color: magenta;
+
+}
+.b{
+    background-color: darkblue;
+}
+
+.c{
+    background-color: salmon;
+
+}
+
+.d{
+    background-color: saddlebrown;
+
+}
+.e{
+    background-color: mediumseagreen;
+
+}
+.f{
+    background-color: deeppink;
+}
