@@ -6,6 +6,7 @@
 
 body{
     background-color: aquamarine;
+
 }
 
 .padre{
@@ -13,34 +14,37 @@ body{
     border: solid 3px black;
     height: 400px;
     margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    grid-template-areas: 
+    "ab ab c"
+    "d ef ef"
+    ;
 }
 
 .hijo{
     background-color: darkorchid;
-
+    border: yellow 5px solid;
 }
 
-.a{
+.ab{
     background-color: magenta;
+    grid-area: ab;
 
-}
-.b{
-    background-color: darkblue;
 }
 
 .c{
     background-color: salmon;
-
+    grid-area: c;
 }
 
 .d{
     background-color: saddlebrown;
-
+    grid-area: d;
 }
-.e{
+.ef{
     background-color: mediumseagreen;
-
-}
-.f{
-    background-color: deeppink;
+    grid-area: ef;
 }
